@@ -1,0 +1,12 @@
+E-commerce EDA Summary
+======================
+
+Run `python main.py` to produce cleaned data, SQL outputs, charts, and a business insights report.
+
+Key checks performed:
+- Missing CustomerID values removed
+- Negative or zero quantities removed
+- Invalid dates removed
+- TotalPrice feature engineered
+
+See `output/insights.txt` and `output/charts/` for final business-facing outputs.
