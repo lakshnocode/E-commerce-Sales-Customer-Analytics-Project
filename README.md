@@ -4,15 +4,35 @@ A practical analytics project that transforms raw online retail transactions int
 
 ---
 
-## 📌 Project Snapshot
-This project analyzes the UCI **Online Retail** dataset to answer core business questions around:
-- Revenue trends over time
-- Top-performing products
-- Country-wise revenue contribution
-- Customer repeat behavior
-- Customer lifetime value
+## 🎯 Objective
+Build an end-to-end analytics workflow that helps a business quickly understand:
+- How revenue is changing month by month
+- Which products and countries drive the most sales
+- How customer behavior impacts repeat purchases and long-term value
 
-It includes a complete pipeline from **data cleaning → SQL analysis → chart generation → insight summary**.
+---
+
+## 📊 Visual Insights (At a Glance)
+
+### Monthly Revenue Trend
+![Monthly Revenue Trend](output/charts/revenue_by_month.png)
+
+### Top 10 Products by Revenue
+![Top 10 Products by Revenue](output/charts/top_products.png)
+
+### Revenue by Country
+![Revenue by Country](output/charts/revenue_by_country.png)
+
+### Repeat vs New Customers Distribution
+![Repeat vs New Customers Distribution](output/charts/customer_repeat_distribution.png)
+
+---
+
+## ✅ What We Achieved
+- Cleaned and standardized retail transaction data
+- Generated SQL-based business reports in CSV format
+- Built visual dashboards for key KPIs
+- Produced automated insight summaries for faster decision-making
 
 ---
 
@@ -75,22 +95,6 @@ Expected columns:
 - SQL query outputs: `output/tables/*.csv`
 - Charts: `output/charts/*.png`
 - Insights summary: `output/insights.txt`
-
----
-
-## 📊 Visual Insights
-
-### Monthly Revenue Trend
-![Monthly Revenue Trend](output/charts/revenue_by_month.png)
-
-### Top 10 Products by Revenue
-![Top 10 Products by Revenue](output/charts/top_products.png)
-
-### Revenue by Country
-![Revenue by Country](output/charts/revenue_by_country.png)
-
-### Repeat vs New Customers Distribution
-![Repeat vs New Customers Distribution](output/charts/customer_repeat_distribution.png)
 
 ---
 
